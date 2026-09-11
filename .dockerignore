@@ -1,0 +1,57 @@
+# ========================
+# Git & Version Control
+# ========================
+.git/
+.gitignore
+
+# ========================
+# Dependencies
+# ========================
+node_modules/
+.pnp/
+.pnp.js
+
+# ========================
+# Build Output (rebuilt in container)
+# ========================
+.next/
+out/
+build/
+dist/
+
+# ========================
+# Environment (injected at runtime)
+# ========================
+.env
+.env.*
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Docker (prevent recursive copy)
+# ========================
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# ========================
+# Docs & Non-essential
+# ========================
+README.md
+LICENSE
+*.md
+.vercel/
+.turbo/
+coverage/

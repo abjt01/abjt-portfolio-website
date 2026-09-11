@@ -26,7 +26,7 @@ export default function AboutMe() {
   }, []);
 
   return (
-    <section className="mx-auto mb-12 text-gray-300 text-sm md:text-base leading-relaxed">
+    <section className="mx-auto mb-16 text-body text-sm md:text-base leading-relaxed">
       <div
         ref={ref}
         style={{
@@ -54,7 +54,7 @@ export default function AboutMe() {
             className="
               pointer-events-none absolute inset-x-0 bottom-0
               h-20
-              bg-gradient-to-b from-transparent via-[#0a0a0a]/50 to-[#0a0a0a]
+              bg-gradient-to-b from-transparent via-surface/50 to-surface
               transition-opacity duration-500
             "
           />
@@ -65,11 +65,11 @@ export default function AboutMe() {
             aria-expanded={open}
             className="
               group absolute bottom-1 left-1/2 -translate-x-1/2 z-20
-              px-4 py-1.5 text-gray-400 text-xs font-medium
-              border border-gray-800 bg-[#0a0a0a] hover:border-[#6c6499] hover:text-[#6c6499]
+              px-4 py-1.5 text-muted text-xs font-medium
+              border border-edge bg-surface hover:border-accent hover:text-accent
               transition-all duration-300 ease-out
               cursor-pointer
-              focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6c6499]/30
+              focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30
               flex items-center gap-1
             "
           >
@@ -85,10 +85,10 @@ export default function AboutMe() {
           aria-expanded={open}
           className="
             group mx-auto mt-3 flex items-center gap-1 px-4 py-1.5
-            text-gray-400 text-xs font-medium cursor-pointer
-            border border-gray-800 bg-[#0a0a0a] hover:border-[#6c6499] hover:text-[#6c6499]
+            text-muted text-xs font-medium cursor-pointer
+            border border-edge bg-surface hover:border-accent hover:text-accent
             transition-all duration-300 ease-out
-            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6c6499]/30
+            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30
           "
         >
           show less

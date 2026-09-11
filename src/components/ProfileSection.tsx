@@ -15,10 +15,10 @@ export default function ProfileSection() {
         <h1 className="text-4xl md:text-6xl font-grotesk font-bold tracking-tight leading-none">
           abhijeet yadav
         </h1>
-        <p className="text-gray-400 text-base md:text-lg font-mono">
-          cse 28&apos; | backend dev | 3× hackathon winner
+        <p className="text-muted text-base md:text-lg font-mono">
+          cse 28&apos; | backend dev | 4× hackathon podium
         </p>
-        <p className="text-gray-300 text-sm md:text-base max-w-2xl leading-relaxed">
+        <p className="text-body text-sm md:text-base max-w-2xl leading-relaxed">
           less UI, more infrastructure.
         </p>
       </div>

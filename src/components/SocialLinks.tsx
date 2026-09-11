@@ -32,7 +32,7 @@ export default function SocialLinks() {
           aria-label={label}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-500 hover:text-[#6c6499] transition-all duration-300"
+          className="text-subtle hover:text-accent transition-all duration-300"
         >
           {useDevicon ? (
             <i className={`${icon} text-2xl`} title={label}></i>
