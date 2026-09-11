@@ -14,16 +14,16 @@ export default function Home() {
       <ProfileSection />
       <SocialLinks />
       <AboutMe />
-      <div className="w-full h-px bg-gray-800 my-12" />
+      <div className="w-full h-px bg-edge my-12" />
 
       <ProjectsSection />
       <AchievementsSection />
       <StackIcons />
-      <div className="w-full h-px bg-gray-800 my-12" />
+      <div className="w-full h-px bg-edge my-12" />
       <BlogSection />
       <WorkWithMe />
       <ReachOut />
-      <footer className="text-center text-gray-700 text-xs font-mono mt-16">
+      <footer className="text-center text-faint text-xs font-mono mt-16">
         © {new Date().getFullYear()} abhijeet yadav
       </footer>
     </main>

@@ -28,9 +28,9 @@ export default function ReachOut() {
   return (
     <section id="reachout" className="mx-auto mb-16">
       <h2 className="text-2xl font-grotesk font-bold mb-6 tracking-tight flex items-center gap-2">
-        <span className="text-[#6c6499]">&gt;</span> contact
+        <span className="text-accent">&gt;</span> contact
       </h2>
-      <p className="text-gray-400 mb-6 text-sm">
+      <p className="text-muted mb-6 text-sm">
         want to connect, collaborate, or just say hi?
         reach out anytime, i&apos;m always open to new ideas and conversations.
       </p>
@@ -42,7 +42,7 @@ export default function ReachOut() {
             aria-label={label}
             target={href.startsWith("mailto:") ? undefined : "_blank"}
             rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
-            className="text-gray-600 hover:text-[#6c6499] transition-all duration-300"
+            className="text-subtle hover:text-accent transition-all duration-300"
           >
             <Icon size={24} weight="regular" />
           </a>
